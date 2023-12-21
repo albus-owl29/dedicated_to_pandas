@@ -2,7 +2,7 @@ $(document).ready(() => {
 
   const onScrollNav = () => { 
 
-    const nav = $('.nav') 
+    const nav = $('nav') 
 
     let prevScroll = $(window).scrollTop() 
     let currentScroll 
