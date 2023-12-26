@@ -93,11 +93,10 @@ main {
 
 	width: 100%;
 	height: auto;
-	display: flex;
-	display: -webkit-flex; 
-	flex-direction: column;
+	display: grid;
+	grid-template-rows: repeat(4, 88vh);
+	grid-template-columns: repeat(1, 90%);
 	justify-content: center;
-	align-items: center;
 }
 
 /* END */
@@ -106,13 +105,11 @@ main {
 
 .section_1, .section_2, .section_3, .section_4 {
 
-	margin: 2% 2% 2% 2%;
+	margin: 2% 2% 2%;
 	background-color: white;
 	border-color: black;
 	border-style: solid;
 	border-width: 1%;
-	width: 90%;
-	height: 88vh;
 	opacity: .3;
 }
 
