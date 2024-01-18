@@ -191,6 +191,7 @@ form {
 
 	header h2 {padding: 4vh 0 4vh 4vw;}
 	nav {grid-template-columns: repeat(4, 25vw);}
+	.btn-primary {width: 30%; height: 4%;}
 }
 
 /* END */
