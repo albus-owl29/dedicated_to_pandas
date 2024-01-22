@@ -1,0 +1,13 @@
+/*** MOBILE ADAPTATION ***/
+
+@media (min-width: 360px) and (max-width: 450px) {
+
+	header h2 {padding: 4vh 0 4vh 4vw;}
+	nav {grid-template-columns: repeat(4, 25vw);}
+	.btn-primary {width: 34%; height: 4%;}
+ 	.section_1, .section_2, .section_3, .section_4 {margin: 4% 1% 0;}
+ 	.section_4 {margin-bottom: 4%;}
+ 	.section_1 {margin-top: 3%;}
+}
+
+/*** END ***/
