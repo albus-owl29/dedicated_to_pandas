@@ -12,6 +12,7 @@
 	.image_block img {border-style: solid; height: 42vh; width: 100%;}
 	.image_block {margin-top: 7%; width: 100%;}
 	.prev, .next {font-size: 20px; margin-top: 7%}
+	.dropdown {width: 100%;}
 }
 
 /*** END ***/
