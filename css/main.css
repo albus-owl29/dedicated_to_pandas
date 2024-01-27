@@ -160,9 +160,7 @@ main {
 
 .image_block img {border-style: solid; width: auto; height: 70vh; border: 0.15em solid; border-radius: 5%;}
 .image_block {display: none;}
-.cursor {cursor: pointer;}
 .next {right: .5%;} .prev {left: .5%;}
-.prev:hover, .next:hover {background-color: rgba(0, 0, 0, 0.4);}
 .number {color: #000; font-size: 12px; padding: 8px 12px; top: 0;}
 
 .prev, .next {
@@ -176,8 +174,9 @@ main {
 .prev:before, .next:before,
 .prev:after, .next:after {
 
-	top: 23%;
+	top: 21%;
 	content: '';
+	cursor: pointer;
 	position: absolute;
 	width: 50%;
 	height: 50%;
