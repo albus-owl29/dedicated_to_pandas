@@ -140,7 +140,7 @@ main {
 }
 
 .section_2 h3 {background-color: #fff; color: #000; text-align: center; margin-top: 2%; border: #000 solid; border-radius: .4em; margin-bottom: 1%;}
-.section_4 {margin-bottom: 2%;}
+.section_4 {margin-bottom: 2%; flex-direction: row; justify-content: center;}
 
 /*** END ***/
 
@@ -252,6 +252,7 @@ main {
 	cursor: pointer;
 	line-height: 14vh;
 	position: relative;
+	display: inline-block;
 	width: 96%;
 	text-align: center;
 	text-decoration: none;
@@ -261,6 +262,7 @@ main {
   
 .dropdown_info {
 
+	display: none;
 	background-color: #000;
 	border: .1em solid #000;
 	border-radius: 1.5em;
@@ -270,22 +272,14 @@ main {
 	margin: 0;
 	padding: 0;
 	left: 0;
-	opacity: 0;
 	text-align: center;
-	top: 0;
-	visibility: hidden;
+	background: #fff;
+	top: 100%;
+	width: 100%;
 	z-index: 1;
-  }
+}
 
-.dropdown_info p {color: #000;}
-.dropdown_info {display: block}
-.dropdown_info.show {display: none}
-  
-  .dropdown_info li:first-child {
-	cursor: default;
-  }
-  
-  .dropdown_info p {
+.dropdown_info p {
 	color: #000;
 	display: inline-block;
 	width: 100%;
@@ -293,22 +287,10 @@ main {
 	-webkit-transition: all 1s;
 	transition: all 1s;
 	z-index: 1;
-  }
-  
-  .dropdown_info p:hover {
-	color: #000;
-  }
-  
-  .dropdown:hover .dropdown_info {
-	background: #fff;
-	opacity: 1;
-	visibility: visible;
-	top: 100%;
-	width: 100%;
-	-webkit-transition: all .2s, background, 0.3s .1s linear;
-	transition: all .2s, background 0.3s .1s linear;
-	z-index: 1;
-  }
+}
+
+.dropdown_info p {color: #000;}
+.dropdown_info li:first-child {cursor: default;}
 
 /*** END ***/
 
@@ -316,7 +298,7 @@ main {
 
 form {
 
-	margin-top: 11%;
+	margin-right: .5%;
 	border: .15em solid;
 	border-radius: 5%;
 	background-color: #fff;
@@ -325,8 +307,8 @@ form {
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	width: 30%;
-	height: 50%;
+	width: 48.5%;
+	height: 96%;
 	bottom: 0;
 }
 
@@ -353,6 +335,24 @@ form {
 
 /*** END ***/
 
+/*** CONTACTS ***/
+
+.contacts {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: .5%;
+	border: .15em solid;
+	border-radius: 5%;	
+	background-color: #fff;
+	width: 48.5%;
+	height: 96%;
+}
+
+/*** END ***/
+
 /*** FOOTER ***/
 
 footer {
@@ -369,7 +369,8 @@ footer p {text-align: left; padding: 2vh 2vh; border-top-style: solid; border-wi
 
 /*** END ***/
 
-.hider {display: none;}
+.hide {display: none;}
+.show {display:block;}
 
 
 

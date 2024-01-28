@@ -7,14 +7,15 @@
 	nav {grid-template-columns: repeat(4, 25vw);}
 	.btn-primary {width: 34%; height: 4%;}
  	.section_1, .section_2, .section_3, .section_4 {margin: 4% 1% 0;}
- 	.section_4 {margin-bottom: 4%;}
+ 	.section_4 {margin-bottom: 4%; flex-direction: column;}
  	.section_1 {margin-top: 3%;}
 	.gallery {width: 98%}
 	.image_block img {border-style: solid; height: auto; width: 100%;}
 	.image_block {margin-top: 7%; width: 100%;}
 	.info_block {margin-top: 2%; width: 98%; height: 60vh;}
 	.dropdown {width: 98%;}
-	form {margin-top: 2%; width: 98%; height: 60%;}
+	form {margin-bottom: 2%; width: 98%; height: 70%;}
+	.contacts {width: 98%; height: 27%;}
 	.btn-primary {width: 35%; height: 9%;}
 }
 
