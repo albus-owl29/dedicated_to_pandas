@@ -1,6 +1,6 @@
 /*** MOBILE ADAPTATION ***/
 
-@media (min-width: 360px) and (max-width: 450px) {
+@media (min-width: 360px) and (max-width: 480px) {
 
 	header {height: 16vh;}
 	.title {width: 80%;}
@@ -13,7 +13,8 @@
 	.image_block img {border-style: solid; height: auto; width: 100%;}
 	.image_block {margin-top: 7%; width: 100%;}
 	.info_block {margin-top: 2%; width: 98%; height: 60vh;}
-	.dropdown {width: 98%;}
+	.dropdown {width: 98%; cursor: none;}
+	.dropdown:hover .dropdown_info {-webkit-transition: all 1s, background, 1s 1s linear; transition: all 1s, background 1s 1s linear;}
 	form {margin-bottom: 2%; width: 98%; height: 70%;}
 	.contacts {width: 98%; height: 27%;}
 	.btn-primary {width: 35%; height: 9%;}

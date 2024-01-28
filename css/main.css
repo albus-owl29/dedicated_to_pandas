@@ -252,7 +252,6 @@ main {
 	cursor: pointer;
 	line-height: 14vh;
 	position: relative;
-	display: inline-block;
 	width: 96%;
 	text-align: center;
 	text-decoration: none;
@@ -262,7 +261,6 @@ main {
   
 .dropdown_info {
 
-	display: none;
 	background-color: #000;
 	border: .1em solid #000;
 	border-radius: 1.5em;
@@ -272,20 +270,43 @@ main {
 	margin: 0;
 	padding: 0;
 	left: 0;
+	opacity: 0;
 	text-align: center;
-	background: #fff;
-	top: 100%;
-	width: 100%;
+	top: 0;
+	visibility: hidden;
 	z-index: 1;
 }
 
+.dropdown_info p {color: #000;}
+.dropdown_info {display: block}
+
+  
+.dropdown_info li:first-child {
+	cursor: default;
+}
+  
 .dropdown_info p {
 	color: #000;
 	display: inline-block;
 	width: 100%;
 	text-decoration: none;
 	-webkit-transition: all 1s;
-	transition: all 1s;
+	transition: all 11s;
+	z-index: 1;
+}
+  
+.dropdown_info p:hover {
+	color: #000;
+}
+  
+.dropdown:hover .dropdown_info {
+	background: #fff;
+	opacity: 1;
+	visibility: visible;
+	top: 100%;
+	width: 100%;
+	-webkit-transition: all .2s, background, 0.3s .1s linear;
+	transition: all .2s, background 0.3s .1s linear;
 	z-index: 1;
 }
 
