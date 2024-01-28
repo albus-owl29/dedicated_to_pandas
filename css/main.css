@@ -287,7 +287,7 @@ main {
   
 .dropdown_info p {
 	color: #000;
-	display: inline-block;
+	display: block;
 	width: 100%;
 	text-decoration: none;
 	-webkit-transition: all 1s;
@@ -298,8 +298,8 @@ main {
 .dropdown_info p:hover {
 	color: #000;
 }
-  
 .dropdown:hover .dropdown_info {
+
 	background: #fff;
 	opacity: 1;
 	visibility: visible;
