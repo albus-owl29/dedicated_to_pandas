@@ -2,18 +2,21 @@
 
 @media (min-width: 360px) and (max-width: 480px) {
 
-	header {height: 16vh;}
+	header {height: 15vh;}
 	.title {width: 80%;}
 	nav {grid-template-columns: repeat(4, 25vw);}
 	.btn-primary {width: 34%; height: 4%;}
  	.section_1, .section_2, .section_3, .section_4 {margin: 4% 1% 0;}
+	.section_2 {flex-direction: column;}
  	.section_4 {margin-bottom: 4%; flex-direction: column;}
  	.section_1 {margin-top: 3%;}
-	.gallery {width: 98%}
+	.gallery {width: 98%; height: auto; margin: 2% 2% 0 2%}
 	.image_block img {border-style: solid; height: auto; width: 100%;}
-	.image_block {margin-top: 7%; width: 100%;}
+	.image_block {margin: 0; width: 100%;}
+	.facts_block {width: 98%; margin-bottom: 2%;}
 	.info_block {margin-top: 2%; width: 98%; height: 60vh;}
-	.dropdown {width: 98%; cursor: none;}
+	.dropdown {width: 98%; cursor: none; line-height: 14vh;}
+	#dd_4 {margin-bottom: 1%;}
 	form {margin-bottom: 2%; width: 98%; height: 70%;}
 	.contacts {width: 98%; height: 27%;}
 	.btn-primary {width: 35%; height: 9%;}
