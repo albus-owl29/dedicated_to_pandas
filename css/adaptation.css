@@ -5,7 +5,7 @@
 	header {height: 15vh;}
 	.title {width: 80%;}
 	nav {grid-template-columns: repeat(4, 25vw);}
-	.panda_block {width: 98%; height: 57%; margin-top: 37%;}
+	.panda_block {width: 98%; height: 57%;}
 	.btn-primary {width: 34%; height: 4%;}
  	.section_1, .section_2, .section_3, .section_4 {margin: 4% 1% 0;}
 	.section_2 {flex-direction: column;}

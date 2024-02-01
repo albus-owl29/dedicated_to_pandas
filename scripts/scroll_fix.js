@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     $('nav a').click(function(){
         
-        var otstupTop=75;
+        var otstupTop=80;
         $('body,html').animate({
         
             scrollTop: $($(this).attr('href')).offset().top-otstupTop
