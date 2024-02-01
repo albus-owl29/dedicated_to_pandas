@@ -156,6 +156,7 @@ main {
 	border-radius: 1.5em;
 	box-shadow: -.7em .7em .7em rgba(0, 0, 0, 0.9), 0.7em 0.7em 0.7em rgba(0, 0, 0, 0.9);
 }
+.section_1 {justify-content: center;}
 .section_4 {margin-bottom: 2%; flex-direction: row; justify-content: center;}
 .section_2 {flex-direction: row; justify-content: center; align-items: center;}
 
@@ -164,7 +165,6 @@ main {
 /*** PANDA ANIMATION ***/
 
 .panda_block {
-	margin-top: 5%;
 	background: #fff; 
 	display: flex; 
 	flex-direction: column; 
@@ -201,13 +201,13 @@ main {
 	border-radius: 0px 0px 40px 40px;
 }
 .ear-l {
-	transform: rotate(142deg);
+	transform: rotate(140deg);
 	bottom: 9%;
 	right:6%;
 } 
 .ear-r {
-	transform:rotate(-139deg);
-	bottom: 31%; 
+	transform:rotate(-138deg);
+	bottom: 31.8%; 
 	left: 78%;
 
 }
