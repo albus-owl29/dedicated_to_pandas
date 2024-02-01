@@ -8,7 +8,6 @@ main h2 {margin: 0 2% 2% 2%; padding-top: 2%;}
 main p {margin: 0 2% 0 2%; padding-bottom: 2%;}
 
 body {
-
 	background-image: url("../img/background_body.jpg");
 	background-repeat: repeat-y;
 	font-size: 1rem;
@@ -28,7 +27,6 @@ body {
 /*** HEADER ***/
 
 header {
-
 	background-image: url("../img/background_sections.jpg");
 	background-position: center;
 	background-size: cover;
@@ -38,7 +36,6 @@ header {
 }
 
 .title {
-
 	width: 40%;
 	background: #fff;
 	border: .2em solid;
@@ -46,7 +43,6 @@ header {
 }
 
  .title div {
-
 	font-size: 2.4rem;
 	font-size: sans-serif;
 	white-space: nowrap;
@@ -84,8 +80,7 @@ header, .title {display: flex; flex-direction: row; justify-content: center; ali
 
 .nav_hidden {transform: translateY(-300%);}
 
-nav {
-	
+nav {	
 	top: 0;
 	width: 100%;
 	display: grid;
@@ -104,7 +99,6 @@ nav {
 }
 
 nav a {
-
 	display: inline-block;
 	text-decoration: none;
 	color: #000;
@@ -123,7 +117,6 @@ nav #active {background-color: #000;}
 nav #active a {color: #fff;}
 
 .nav_sec {
-
 	float: left; 
 	text-align: center;
 	text-decoration: none;
@@ -137,7 +130,6 @@ nav #active a {color: #fff;}
 /*** CONTENT_MAIN ***/
 
 main {
-
 	width: 100%;
 	height: auto;
 	display: grid;
@@ -151,7 +143,6 @@ main {
 /*** SECTIONS ***/
 
 .section_1, .section_2, .section_3, .section_4 {
-	
 	background-image: url("../img/background_sections.jpg");
 	background-position: center;
 	background-size: cover;
@@ -170,10 +161,174 @@ main {
 
 /*** END ***/
 
+/*** PANDA ANIMATION ***/
+
+.panda_block {
+	margin-top: 5%;
+	background: #fff; 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	width: 40%; 
+	height: 88%;
+	border: .2em solid;
+	border-radius: 1.5em;
+}
+.panda {
+	background: #fff;
+	top: 40%;
+	height: 55%;
+	width: 44%;
+	border: .5rem solid black;
+	border-radius: 32%;
+}
+.face {
+	position: relative;
+	background-color: whitesmoke;
+	border: .5rem solid black;
+	height: 75%;
+	width: 116%;
+	border-radius: 50%;
+	bottom: 25%;
+	right: 8.3%;
+}
+.ear-l,.ear-r {
+	position: relative;
+	background-color: black;
+	height: 25%;
+	width: 31%;
+	border-radius: 0px 0px 40px 40px;
+}
+.ear-l {
+	transform: rotate(142deg);
+	bottom: 9%;
+	right:6%;
+} 
+.ear-r {
+	transform:rotate(-139deg);
+	bottom: 31%; 
+	left: 78%;
+
+}
+.eye-l,.eye-r {
+	position: relative;
+	background-color: black;
+	width: 20%;
+	height: 30%;
+	border-radius: 50%;
+} 
+.eye-l {
+	bottom: 30%;
+	left: 14%;
+	transform: rotate(35deg); 
+
+}
+.eye-r{
+	bottom: 60%;
+	left: 66%;
+	transform: rotate(-35deg);  
+}
+.eyeball-l {
+	position: relative;
+	top: 30%;
+	left: 50%;
+	width: 29%;
+	height: 23%;
+	border-radius: 50%;
+	background-color: whitesmoke;
+}
+.eyeball-r {
+	position: relative;
+	top: 30%;
+	left: 22%;
+	width: 29%;
+	height: 23%;
+	border-radius: 50%;
+	background-color: whitesmoke;
+}
+.nose {
+	position: relative;
+	height: 10%;
+	width: 15%;
+	background-color: black;
+	border-radius: 50%;
+	bottom: 60%;
+	left: 42%;
+} 
+.mouth {position: relative;
+	height: 5%;
+	width: 30%;
+	background-color: black;
+	border-radius: 50%;
+	bottom: 44%;
+	left: 35%;}
+
+.hand-l,.hand-r {
+	position: relative;
+	width: 32%;
+	height: 42%;
+	background-color: black;
+	border-radius: 45%;
+
+}
+.hand-l {
+	transform: rotate(90deg);
+	bottom: 23%;
+	right: 10%;
+	animation: wave_1 4s infinite;
+	transform-origin: top;
+	
+}
+
+.hand-r {
+	animation: wave_2 4s infinite;
+	transform: rotate(90deg);
+	transform-origin: bottom;
+	bottom: 107%;
+	left: 78%;
+}
+
+@keyframes wave_1 {
+	50%{
+		  transform: rotate(120deg);
+	}
+}
+@keyframes wave_2 {
+	50%{
+		  transform: rotate(60deg);
+	}
+}
+
+.leg-l,.leg-r{
+	position: relative;
+	background-color: black;
+	width: 30%;
+	height: 25%;
+	border-radius: 0px 0px 40% 40%;
+}
+.leg-l{
+	bottom: 59%; 
+	left: 18%;  
+}
+.leg-r{
+	bottom: 84%;
+	left: 52%;
+}
+.shadow{
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 30%;
+	width: 100%;
+	border-radius: 50%;
+	bottom: 105%;
+}
+
+/*** END ***/
+
 /*** GALLERY ***/
 
 .gallery {
-
 	margin: .5% .5% 0 0;
 	display: flex;
 	flex-direction: column;
@@ -191,7 +346,6 @@ main {
 .next {right: .5%;} .prev {left: .5%;}
 
 .prev, .next {
-
 	position: absolute; 
 	width: 15%; 
 	height: 15%; 
@@ -200,7 +354,6 @@ main {
 }
 .prev:before, .next:before,
 .prev:after, .next:after {
-
 	top: 21%;
 	content: '';
 	cursor: pointer;
@@ -252,7 +405,6 @@ main {
 }
 
 .facts_block {
-
 	margin-left: .5%;
 	display: flex;
 	flex-direction: column;
@@ -271,7 +423,6 @@ main {
 /*** INFO BLOCK ***/
 
 .info_block {
-	
 	margin-top: 1%;
 	display: flex; 
 	flex-direction: column; 
@@ -285,7 +436,6 @@ main {
 }
 
 .dropdown {
-	
 	margin-top: 1%;
 	background: #000;
 	border: 0 solid;
@@ -320,7 +470,6 @@ main {
 }
 
 .dropdown_info {
-
 	margin-top: 1%;
 	visibility: visible;
 	border: .1em solid #000;
@@ -351,7 +500,6 @@ main {
 /*** SEND FORM STYLES ***/
 
 form {
-
 	margin-right: .5%;
 	border: .15em solid;
 	border-radius: 5%;
@@ -372,7 +520,6 @@ form {
 }
 
 .btn-primary {
-
 	width: 30%;
 	height: 10%;
 	font-size: 20px;
@@ -392,7 +539,6 @@ form {
 /*** CONTACTS ***/
 
 .contacts {
-
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -410,7 +556,6 @@ form {
 /*** FOOTER ***/
 
 footer {
-
 	display: inline-block;
 	background-color: #fff;
 	text-align: center;
