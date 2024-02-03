@@ -13,7 +13,7 @@ $(document).ready(() => {
 
       const navHidden = () => nav.hasClass('nav_hidden') 
 
-      if (currentScroll > 100 && !navHidden()) { 
+      if (currentScroll > 210 && !navHidden()) { 
         nav.addClass('nav_hidden') 
       }
       if (currentScroll < prevScroll && navHidden()) { 
