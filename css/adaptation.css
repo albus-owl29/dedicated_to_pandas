@@ -19,6 +19,7 @@
 	.info_left {display: none;} .info_right {width: 96%; height: 27%; margin-top: 2%;}
 	.info_block {width: 98%; height: 64vh;}
 	.dropdown {width: 98%; cursor: none; line-height: 15vh;}
+	.dropdown_info {height: 15vh;}
 	#dd_4 {margin-bottom: 1%;}
 	form {margin-bottom: 2%; width: 98%; height: 70%;}
 	.contacts {width: 98%; height: 27%;}
