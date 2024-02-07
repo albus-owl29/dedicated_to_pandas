@@ -2,9 +2,10 @@
 
 @media (min-width: 280px) and (max-width: 480px) {
 
-	header {height: 15vh;}
-	.title {width: 80%;}
-	nav {grid-template-columns: repeat(4, 25vw);}
+	header {height: 30vmin;}
+	.title {width: 80%; height: 20vmin;}
+	nav {grid-template-columns: repeat(4, 25vw); height: 14vmin;}
+	main {grid-template-rows: repeat(4, 168vmin);}
 	.panda_block {width: 98%; height: 57%;}
 	.btn-primary {width: 34%; height: 4%;}
  	.section_1, .section_2, .section_3, .section_4 {margin: 4% 1% 0; flex-direction: column;}
@@ -12,17 +13,18 @@
  	.section_1 {margin-top: 3%;}
 	.intro, .outro {width: 98%; height: 20%;}
 	.intro {margin: 0 0 1% 0;} .outro {margin: 1% 0 0 0;}
-	.gallery {width: 98%; height: auto; margin: 2% 2% 0 2%}
+	.gallery {width: 98%; height: 58%; margin: 2% 2% 0 2%}
 	.image_block img {border-style: solid; height: auto; width: 100%;}
 	.image_block {margin: 0; width: 100%;}
-	.facts_block {width: 98%; margin-bottom: 2%;}
-	.info_left {display: none;} .info_right {width: 98%; height: 27%; margin: 2% 0 0 0;}
-	.info_block {width: 98%; height: 64vh;}
-	.dropdown {width: 98%; cursor: none; line-height: 14.2vh;}
-	.dropdown_info {height: 15vh;}
+	.facts_block {width: 98%; margin-bottom: 2%; height: 40%;}
+	.info_left {display: none;} .info_right {width: 98%; height: 28vmin; margin: 1% 0 0 0;}
+	.info_block {width: 98%; height: 130vmin;}
+	.dropdown {width: 98%; cursor: none; line-height: 29vmin;}
+	.dropdown_info {height: 100%;}
 	#dd_4 {margin-bottom: 1%;}
 	form {margin-bottom: 2%; width: 98%; height: 70%;}
 	.contacts {width: 98%; height: 27%;}
 	.btn-primary {width: 52%; height: 12%;}
+	footer {height: 16vmin;}
 }
 /*** END ***/
