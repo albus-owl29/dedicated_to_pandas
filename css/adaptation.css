@@ -23,7 +23,9 @@
 	.dropdown_info {height: 100%;}
 	#dd_4 {margin-bottom: 1%;}
 	form {margin-bottom: 2%; width: 98%; height: 70%;}
-	.contacts {width: 98%; height: 27%;}
+	.contacts {width: 98%; height: 27%; align-items: flex-start;}
+	.contacts h1 {margin-left: 32%;}
+	.contacts p {margin-left: 10%;}
 	.btn-primary {width: 52%; height: 12%;}
 	footer {height: 16vmin;}
 }

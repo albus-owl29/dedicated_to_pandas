@@ -542,7 +542,6 @@ form {
 	bottom: 0;
 }
 
-.form-label, .text {color: #fff;}
 .form h2 {margin-bottom: 3%;}
 .form-control-1, .btn-primary {margin-top: 1%;}
 
@@ -572,14 +571,14 @@ form {
 	justify-content: center;
 	align-items: center;
 	margin-left: .5%;
-	border: .15em solid;
+	border: .15em solid #fff;
 	border-radius: 1.5em;
 	background-color: #000;
 	width: 48.5%;
 	height: 96%;
 }
 
-.contacts h1 {color: #fff;}
+.contacts h1 {color: #fff; margin-bottom: 3%;}
 .contacts p {color: #fff;}
 
 /*** END ***/
@@ -587,7 +586,7 @@ form {
 /*** FOOTER ***/
 
 footer {
-	background-color: #c2e299;
+	background-color: #4c930f;;
 	text-align: center;
 	width: 100%;
 	height: 8vmin;
