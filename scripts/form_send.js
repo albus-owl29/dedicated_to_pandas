@@ -8,7 +8,8 @@ document.getElementById('tg').addEventListener('submit', function(e) {
 
     let message = `<b>Заявка с сайта</b>\n`;
     message += `<b>Отправить: </b> ${ this.name.value }\n`;
-    message += `<b>Номер телефона: </b> ${ this.phoneNumber.value }`;
+    message += `<b>Номер телефона: </b> ${ this.phoneNumber.value }\n`;
+    message += `<b>Идея: </b> ${ this.idea.value }`;
 
     axios.post(URI_API, {
 
