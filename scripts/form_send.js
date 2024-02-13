@@ -19,11 +19,13 @@ document.getElementById('tg').addEventListener('submit', function(e) {
     })
 
     button.textContent = 'Отправлено';
+    button.style.background = '#c2e299';
 })
 
 function renameBtn() {
 
     button.textContent = 'Отправить';
+    button.style.background = 'white';
   }
   
   setInterval(() => renameBtn(), 5000);
