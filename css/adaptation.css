@@ -19,6 +19,8 @@
 	.image_block img {border-style: solid; max-height: 92vmin; width: 100%;}
 	.image_block {margin: 0; width: 100%;}
 	.facts_block {width: 98%; margin-bottom: 2%; height: 40%;}
+	.facts_block p {color: #fff; text-align: center; font-size: 6vmin;}
+	.facts_block li {color: #fff; width: 112%; padding: 6%; font-size: 7vmin; margin-top: 3vmin; border: 0.15rem solid #fff; border-radius: 1.5rem;}
 	.info_left {display: none;} .info_right {width: 98%; height: 28vmin; margin: 1% 0 0 0;}
 	.info_block {width: 98%; height: 130vmin;}
 	.dropdown {width: 98%; cursor: none; line-height: 29vmin;}
